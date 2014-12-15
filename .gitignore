@@ -1,0 +1,51 @@
+# .gitignore - patterns for git to ignore.
+.DS_Store
+.DS_Store?
+Icon?
+.svn
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Xcode
+build/*
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+profile
+*.moved-aside
+*DontCheckIn*
+GTL*
+GTM*
+
+# Eclipse  built application files
+*.apk
+*.ap_
+
+# Eclipse  files for the dex VM
+*.dex
+
+# Eclipse  Java class files
+*.class
+
+# Eclipse  generated files
+armeabi/
+bin/
+gen/
+
+# Eclipse  Local configuration file (sdk path, etc)
+local.properties
+Raw\ Audio
