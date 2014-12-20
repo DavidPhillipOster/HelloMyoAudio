@@ -55,7 +55,7 @@
 		4D00AF2E17CE6E3800A0FAE8 /* TLHMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TLHMViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		4D00AF3017CE6E3800A0FAE8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4D4EEBF617E226B900CAA2AF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		549DDC4319D0C3CC00108B10 /* MyoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MyoKit.framework; path = "../Myo-iOS-SDK-beta-3/MyoKit.framework"; sourceTree = "<group>"; };
+		549DDC4319D0C3CC00108B10 /* MyoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MyoKit.framework; path = "../Myo-iOS-SDK-0.4.0/MyoKit.framework"; sourceTree = "<group>"; };
 		63D1B24E1A3E976D00F2ACDD /* fist.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fist.caf; sourceTree = "<group>"; };
 		63D1B24F1A3E976D00F2ACDD /* go.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = go.caf; sourceTree = "<group>"; };
 		63D1B2501A3E976D00F2ACDD /* left.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = left.caf; sourceTree = "<group>"; };
@@ -331,7 +331,7 @@
 					$SOURCE_ROOT,
 					"$(inherited)",
 					"$(PROJECT_DIR)",
-					"$SOURCE_ROOT/../Myo-iOS-SDK-beta-3/",
+					"$SOURCE_ROOT/../Myo-iOS-SDK-0.4.0/",
 					$SOURCE_ROOT/../,
 				);
 				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
@@ -340,7 +340,7 @@
 				GCC_PREFIX_HEADER = "HelloMyo/HelloMyo-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					$inherited,
-					"$SOURCE_ROOT/../Myo-iOS-SDK-beta-3/",
+					"$SOURCE_ROOT/../Myo-iOS-SDK-0.4.0/",
 				);
 				INFOPLIST_FILE = "HelloMyo/HelloMyo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -366,14 +366,14 @@
 					$SOURCE_ROOT,
 					"$(inherited)",
 					"$(PROJECT_DIR)",
-					"$SOURCE_ROOT/../Myo-iOS-SDK-beta-3/",
+					"$SOURCE_ROOT/../Myo-iOS-SDK-0.4.0/",
 					$SOURCE_ROOT/../,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloMyo/HelloMyo-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					$inherited,
-					"$SOURCE_ROOT/../Myo-iOS-SDK-beta-3/",
+					"$SOURCE_ROOT/../Myo-iOS-SDK-0.4.0/",
 				);
 				INFOPLIST_FILE = "HelloMyo/HelloMyo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;

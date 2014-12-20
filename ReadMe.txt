@@ -2,3 +2,4 @@
 
 I modified the example from the beta-3 SDK to add sound cues when a gesture is recognized.
 
+12/20/2014 - Revised for Beta 4.

@@ -173,10 +173,10 @@
     TLMAccelerometerEvent *accelerometerEvent = notification.userInfo[kTLMKeyAccelerometerEvent];
 
     // Get the acceleration vector from the accelerometer event.
-    GLKVector3 accelerationVector = accelerometerEvent.vector;
+    TLMVector3 accelerationVector = accelerometerEvent.vector;
 
     // Calculate the magnitude of the acceleration vector.
-    float magnitude = GLKVector3Length(accelerationVector);
+    float magnitude = TLMVector3Length(accelerationVector);
 
     // Update the progress bar based on the magnitude of the acceleration vector.
     self.accelerationProgressBar.progress = magnitude / 8;
